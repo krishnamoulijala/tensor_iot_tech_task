@@ -98,7 +98,8 @@ def main(cars):
 
 
 if __name__ == "__main__":
-    main(generate_cars(10))
+    main(generate_cars(20))
+    upload_file_to_s3("vehicle_to_spot_mapping.json", "assets/parking_lot")
 
 # Parking Lot Challenge:
 #
